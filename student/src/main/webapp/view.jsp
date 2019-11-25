@@ -18,7 +18,7 @@
    <td>${list.id}</td>    
    <td>${list.name}</td>  
    <td>${list.pass}</td>    
-   <td><a href="editlist/${list.id}">Edit</a></td>  
+  <td><a href="edit?r=up&id=${list.id}&name=${list.name}&pass=${list.pass}">Edit</a></td>   
    <td><a href="deletelist/${list.id}">Delete</a></td>  
    </tr>  
    </c:forEach>  
